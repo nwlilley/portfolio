@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 5000px;
+    margin: auto;
+    width: 75%;
+}
+.fur {
+    height: 1333px;
+}
+.background-img {
+    z-index: -1;
+    position: absolute;
+}
+.back-img-1 {
+    top: 0;
+}
+
+.back-img-2 {
+    top: 1333px;
+}
+
+.back-img-3 {
+    top: 2666px;
+}
+.overlay-text {
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 25px;
+}
+

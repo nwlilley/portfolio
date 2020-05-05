@@ -13,7 +13,6 @@ header {
     /* background-color: white; */
     width: 100%;
     margin: 0 auto;
-    max-width: 1000px;
     position: fixed;
     top: 0;
     z-index: 2;
@@ -33,7 +32,6 @@ header a:hover {
 .wrapper {
     height: 5000px;
     margin: auto;
-    width: 85%;
 }
 
 .nav-links a{
@@ -48,9 +46,11 @@ header a:hover {
 .background-img {
     z-index: -1;
     position: absolute;
+    width: 100%;
 }
 .back-img-1 {
-    top: 0;
+    /* top: 0; */
+    width: 100%;
 }
 
 .back-img-2 {
@@ -73,8 +73,14 @@ header a:hover {
     margin: auto;
 }
 
+.footer {
+    height: 200px;
+    background-color: hotpink;
+}
 
-
+.footer-trench {
+}
+/* FLEX */
 .flex {
     display: flex;
 }
